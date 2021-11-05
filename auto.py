@@ -71,7 +71,8 @@ class DaKa:
         username = re.search('"XGH_336526":"(.*?)"', content1).group(1)
         name = re.search('"XM_1474":"(.*?)"', content1).group(1)
         IDnumber = re.search('"SFZJH_859173":"(.*?)"', content1).group(1)
-        yuanxi = re.search('"SELECT_941320":"(.*?)"', content1).group(1)
+        # yuanxi = re.search('"SELECT_941320":"(.*?)"', content1).group(1)
+        yuanxi = '能源与电气学院'
         nianji = re.search('"SELECT_459666":"(.*?)"', content1).group(1)
         zhuanye = re.search('"SELECT_814855":"(.*?)"', content1).group(1)
         banji = re.search('"SELECT_525884":"(.*?)"', content1).group(1)
